@@ -890,17 +890,27 @@ border: 2px solid #fff;
 @media screen and (max-width : 512px) {
     #thumbnail-preview-indicators .carousel-indicators li,
     #thumbnail-preview-indicators .carousel-indicators li.active {
+
       width: 50px;
       height: 8px;
       position: relative;
     }
     #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+
        width: 50px;
        left: 50%;
        margin-top: -50px;
        margin-left: -25px;
     }
 }
+/*recruit*/
+.form-inline .form-group { margin-right:10px; }
+.well-primary {
+color: rgb(255, 255, 255);
+background-color: rgb(66, 139, 202);
+border-color: rgb(53, 126, 189);
+}
+.glyphicon { margin-right:5px; }
 
 /* Animation Timers
 ---------------------------------*/
