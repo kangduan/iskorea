@@ -847,15 +847,15 @@ border: 2px solid #fff;
       height: 650px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
-  background:url(../img/slider-menu/innovate.png);
+  background:url(../img/slide-menu/innovate.png);
   background-size: cover;
 }
 #thumbnail-preview-indicators .slides .slide-2 {
-  background:url(../img/slider-menu/best2.png);
+  background:url(../img/slide-menu/best2.png);
   background-size: cover;
 }
 #thumbnail-preview-indicators .slides .slide-3 {
-  background:url(../img/slider-menu/create.png);
+  background:url(../img/slide-menu/create.png);
   background-size: cover;
 }
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
