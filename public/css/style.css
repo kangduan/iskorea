@@ -844,7 +844,7 @@ border: 2px solid #fff;
     #thumbnail-preview-indicators .slides .slide-1,
     #thumbnail-preview-indicators .slides .slide-2,
     #thumbnail-preview-indicators .slides .slide-3 {
-      height: 650px;
+      height: 600px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
   background:url(../img/slide-menu/innovate.png);
@@ -865,12 +865,11 @@ border: 2px solid #fff;
 #thumbnail-preview-indicators .carousel-indicators li,
 #thumbnail-preview-indicators .carousel-indicators li.active {
   position: relative;
-  background-size: cover;
   width: 100px;
   height: 8px;
 }
 #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
-  background-size: cover;
+
   position: absolute;
   top: 0;
   width: 100px;
@@ -891,13 +890,13 @@ border: 2px solid #fff;
 @media screen and (max-width : 512px) and (max-width: 1024px) {
     #thumbnail-preview-indicators .carousel-indicators li,
     #thumbnail-preview-indicators .carousel-indicators li.active {
-      background-size: cover;
+
       width: 50px;
       height: 8px;
       position: relative;
     }
     #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
-      background-size: cover;
+
        width: 50px;
        left: 50%;
        margin-top: -50px;
