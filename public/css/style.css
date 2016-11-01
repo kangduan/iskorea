@@ -844,7 +844,7 @@ border: 2px solid #fff;
     #thumbnail-preview-indicators .slides .slide-1,
     #thumbnail-preview-indicators .slides .slide-2,
     #thumbnail-preview-indicators .slides .slide-3 {
-      height: 480px;
+      height: 700px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
   background:url(../img/best2.png);
