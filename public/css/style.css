@@ -847,13 +847,13 @@ border: 2px solid #fff;
       height: 480px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
-  background-image: url(logo/innovate.png);
+  background-image: url(img/logo/innovate.png);
 }
 #thumbnail-preview-indicators .slides .slide-2 {
-  background-image: url(logo/best2.png);
+  background-image: url(img/logo/best2.png);
 }
 #thumbnail-preview-indicators .slides .slide-3 {
-  background-image: url(logo/create.png);
+  background-image: url(img/logo/create.png);
 }
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
   top: 20%;
