@@ -829,7 +829,6 @@ border: 2px solid #fff;
 */
 
 #thumbnail-preview-indicators {
-  max-width: 1140px;
   position: relative;
   overflow: hidden;
 }
