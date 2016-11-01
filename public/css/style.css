@@ -872,11 +872,12 @@ border: 2px solid #fff;
   position: absolute;
   top: 0;
   width: 200px;
+  width: 100px;
   display: none;
   opacity: 0;
   left: 50%;
-  margin-top: -80px;
-  margin-left: -50px;
+  /*margin-top: -80px;
+  margin-left: -50px;*/
 }
 #thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
 #thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail {
@@ -901,6 +902,14 @@ border: 2px solid #fff;
     }
 }
 /*slider-menu mouse icon css*/
+/*fixed caption*/
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
 p {
   margin-left: -55px;
 }
