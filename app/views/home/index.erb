@@ -64,14 +64,14 @@
             <li data-target="#thumbnail-preview-indicators" data-slide-to="1">
 
              <div class="thumbnail">
-                <img class="img-responsive" src="img/innovate.png">
+                <img class="img-responsive" src="img/best2.png">
               </div>
 
             </li>
             <li data-target="#thumbnail-preview-indicators" data-slide-to="2">
 
              <div class="thumbnail">
-                <img class="img-responsive" src="img/innovate.png">
+                <img class="img-responsive" src="img/create.png">
               </div>
 
             </li>
@@ -587,34 +587,6 @@ $(window).load(function(){
 
 </script>
 
-<script>
-$(document).ready(function(){
-
-$(function(){
-
-    $(document).on( 'scroll', function(){
-
-    	if ($(window).scrollTop() > 100) {
-			$('.scroll-top-wrapper').addClass('show');
-		} else {
-			$('.scroll-top-wrapper').removeClass('show');
-		}
-	});
-
-	$('.scroll-top-wrapper').on('click', scrollToTop);
-});
-
-function scrollToTop() {
-	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
-	element = $('body');
-	offset = element.offset();
-	offsetTop = offset.top;
-	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
-}
-
-});
-
-</script>
 
 
 </body>
