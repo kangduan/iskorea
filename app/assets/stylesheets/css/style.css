@@ -442,15 +442,15 @@ img {
 }
 .quote-right{
 	font-style:normal;
-	width:68px;
-	height:68px;
+	width:80px;
+	height:80px;
 	margin:0 auto;
 	border:2px solid #7cc576;
 	border-radius:50%;
 	display:block;
 	line-height:68px;
 	text-align:center;
-	font-size:27px;
+	font-size:20px;
 	color:#7cc576;
 	cursor: pointer;
 	transition:all 0.3s ease-in-out;
@@ -890,17 +890,27 @@ border: 2px solid #fff;
 @media screen and (max-width : 512px) {
     #thumbnail-preview-indicators .carousel-indicators li,
     #thumbnail-preview-indicators .carousel-indicators li.active {
+
       width: 50px;
       height: 8px;
       position: relative;
     }
     #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+
        width: 50px;
        left: 50%;
        margin-top: -50px;
        margin-left: -25px;
     }
 }
+/*recruit*/
+.form-inline .form-group { margin-right:10px; }
+.well-primary {
+color: rgb(255, 255, 255);
+background-color: rgb(66, 139, 202);
+border-color: rgb(53, 126, 189);
+}
+.glyphicon { margin-right:5px; }
 
 /* Animation Timers
 ---------------------------------*/
