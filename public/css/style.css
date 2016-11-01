@@ -1007,10 +1007,10 @@ border: 2px solid #fff;
 /********************************/
 /*          Media Queries       */
 /********************************/
-@media screen and (min-width: 980px){
+@media screen and (min-width: 1200px) and (min-height: 400px){
 
 }
-@media screen and (max-width: 640px){
+@media screen and (max-width: 1200px) and (max-height: 400px){
 
 }
 
