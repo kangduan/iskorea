@@ -890,13 +890,11 @@ border: 2px solid #fff;
 @media screen and (max-width : 512px) {
     #thumbnail-preview-indicators .carousel-indicators li,
     #thumbnail-preview-indicators .carousel-indicators li.active {
-
       width: 50px;
       height: 8px;
       position: relative;
     }
     #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
-
        width: 50px;
        left: 50%;
        margin-top: -50px;
