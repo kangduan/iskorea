@@ -128,7 +128,7 @@
 					<li class="small-logo"><a href="#header"><img src="img/bar-logo.png" alt=""></a></li>
 					<li><a href="#about">about</a></li>
             <li><a href="#service">Services</a></li>
-            <li><a href="#Portfolio">Rental Products</a></li>
+            <li><a href="#product">Rental Products</a></li>
             <li><a href="#recruit">Recruitment</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
@@ -174,7 +174,7 @@
               </div>
 
             </div>
-            <a class="link animated fadeInUp delay-1s" href="/home/about" style="margin-top:50px; margin-left:400px;">Learn More</a>
+            <a class="link animated fadeInUp delay-1s" href="/home/about" style="margin-top:50px; margin-left:450px;">Learn More</a>
         </div>
 	</div>
 </section><!--main-section-end-->
@@ -211,15 +211,6 @@
                 	<div class="service-list-col2">
                         <h3>Counseling</h3>
                         <p>Proin iaculis purus consequat digni sem digni ssim. Purus donec porttitora entum.</p>
-                    </div>
-                </div>
-                <div class="service-list">
-                	<div class="service-list-col1">
-                    	<i class="fa-medkit"></i>
-                    </div>
-                	<div class="service-list-col2">
-                        <h3>24/7 Support</h3>
-                        <p>Proin iaculis purus consequat sem digni ssim. Sem porttitora entum.</p>
                     </div>
                 </div>
             </div>
@@ -476,6 +467,11 @@ we were well fed and drunk all the time!</p>
         </div>
 </section>
 </div>
+<!-- up-scroll -->
+<span class="scroll-top-inner">
+    <i class="fa fa-2x fa-arrow-up"></i>
+</span>
+
 <footer class="footer">
     <div class="container">
         <div class="footer-logo"><a href="#"><img src="img/menu-logo.png" alt=""></a></div>
@@ -582,6 +578,35 @@ $(window).load(function(){
 });
 
 </script>
+<script>
+$(document).ready(function(){
+
+$(function(){
+
+    $(document).on( 'scroll', function(){
+
+    	if ($(window).scrollTop() > 100) {
+			$('.scroll-top-wrapper').addClass('show');
+		} else {
+			$('.scroll-top-wrapper').removeClass('show');
+		}
+	});
+
+	$('.scroll-top-wrapper').on('click', scrollToTop);
+});
+
+function scrollToTop() {
+	verticalOffset = typeof(verticalOffset) != 'undefined' ? verticalOffset : 0;
+	element = $('body');
+	offset = element.offset();
+	offsetTop = offset.top;
+	$('html, body').animate({scrollTop: offsetTop}, 500, 'linear');
+}
+
+});
+
+</script>
+
 
 </body>
 </html>
