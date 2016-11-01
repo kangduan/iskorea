@@ -888,7 +888,7 @@ border: 2px solid #fff;
 #thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
   opacity: 1;
 }
-@media screen and (max-width : 480px) {
+@media screen and (max-width : 512px) and (max-width: 1024px) {
     #thumbnail-preview-indicators .carousel-indicators li,
     #thumbnail-preview-indicators .carousel-indicators li.active {
       background-size: cover;
