@@ -974,14 +974,14 @@ p {
 	font-size: 13px;
 	font-weight: normal;
 	color: #7f8c8d;
-	color: #ffffff;
+	color: #3bff00;
 	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 }
 .scroll-btn > *:hover,
 .scroll-btn > *:focus,
 .scroll-btn > *.active {
-	color: #ffffff;
+	color: ##00ff2a;
 }
 .scroll-btn > *:hover,
 .scroll-btn > *:focus,
