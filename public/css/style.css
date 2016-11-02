@@ -964,7 +964,9 @@ border: 2px solid #fff;
 		opacity: 0;
 	}
 }
-#section10 { background: url(https://unsplash.it/1000/1000?image=723) center center / cover no-repeat;}
+#section10 { background: url(https://unsplash.it/1000/1000?image=723) center center / cover no-repeat;
+              color: #54ff00;
+}
 
 /*recruit*/
 .form-inline .form-group { margin-right:10px; }
