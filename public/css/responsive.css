@@ -50,6 +50,9 @@
 	h3{ font-size:14px;}
 	h6{ font-size:16px; margin-bottom:40px;}
 	p{ line-height:18px;}
+	#thumbnail-preview-indicators {
+	  background:url(../img/pw_maze_black_2X.png) left top repeat;
+	}
 	.service-list{ font-size:12px; margin-bottom:20px;}
 	.we-create li{ font-size:13px; padding:0 0 0 8px}
 	.header h1{ font-size:28px;}
