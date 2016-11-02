@@ -829,7 +829,6 @@ border: 2px solid #fff;
 */
 
 #thumbnail-preview-indicators {
-  max-width: 1600px;
   position: relative;
   overflow: hidden;
 }
@@ -845,7 +844,8 @@ border: 2px solid #fff;
     #thumbnail-preview-indicators .slides .slide-1,
     #thumbnail-preview-indicators .slides .slide-2,
     #thumbnail-preview-indicators .slides .slide-3 {
-      height: 400px;
+      width: 100%;
+      height: 100%;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
   background:url(../img/slide-menu/innovate.png);
