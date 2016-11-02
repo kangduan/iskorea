@@ -877,8 +877,8 @@ border: 2px solid #fff;
   display: none;
   opacity: 0;
   left: 50%;
-  margin-top: -80px;
-  margin-left: -50px;
+  /*margin-top: -80px;
+  margin-left: -50px;*/
 }
 #thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
 #thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail {
