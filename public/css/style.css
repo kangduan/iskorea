@@ -965,7 +965,24 @@ border: 2px solid #fff;
 	}
 }
 #section10 { background: url(https://unsplash.it/1000/1000?image=723) center center / cover no-repeat;
-              color: #54ff00;
+
+}
+.demo a {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	z-index: 2;
+	display: inline-block;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	color: #54ff00;
+	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	letter-spacing: .1em;
+	text-decoration: none;
+	transition: opacity .3s;
+}
+.demo a:hover {
+	opacity: .5;
 }
 
 /*recruit*/
