@@ -829,6 +829,7 @@ border: 2px solid #fff;
 */
 
 #thumbnail-preview-indicators {
+  max-width: 1200px;
   position: relative;
   overflow: hidden;
 }
@@ -850,7 +851,7 @@ border: 2px solid #fff;
   background:url(../img/slide-menu/innovate.png);
 }
 #thumbnail-preview-indicators .slides .slide-2 {
- background:url(../img/slide-menu/best2.png);;
+  background:url(../img/slide-menu/best2.png);;
 }
 #thumbnail-preview-indicators .slides .slide-3 {
   background:url(../img/slide-menu/create.png);
