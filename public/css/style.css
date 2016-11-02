@@ -1011,7 +1011,7 @@ p {
 	height: 8px;
 	margin: -4px 0 0 -4px;
 /*background: white;*/
-	border-radius: 50%;
+	border-radius: 80%;
 	-webkit-animation: ani-mouse 2.5s linear infinite;
 	-moz-animation: ani-mouse 2.5s linear infinite;
 	animation: ani-mouse 2.5s linear infinite;
