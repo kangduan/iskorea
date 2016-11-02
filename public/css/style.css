@@ -847,13 +847,13 @@ border: 2px solid #fff;
       height: 480px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
-  background:url(../img/innovate.png);
+  background:url(../img/slide-menu/innovate.png);
 }
 #thumbnail-preview-indicators .slides .slide-2 {
- background:url(../img/best2.png);;
+ background:url(../img/slide-menu/best2.png);;
 }
 #thumbnail-preview-indicators .slides .slide-3 {
-  background:url(../img/create.png);
+  background:url(../img/slide-menu/create.png);
 }
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
   top: 20%;
@@ -892,6 +892,7 @@ border: 2px solid #fff;
       position: relative;
     }
     #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
+       background:url(../img/section-bg2.jpg) top center no-repeat;
        width: 50px;
        left: 50%;
        margin-top: -50px;
