@@ -331,7 +331,6 @@ we were well fed and drunk all the time!</p>
 
             <div class="col-sm-6 wow fadeInDown">
                              <div class="accordion">
-                                 <h2>Why People like us?</h2>
                                  <div class="panel-group" id="accordion1">
                                    <div class="panel panel-default">
                                      <div class="panel-heading active">
@@ -409,13 +408,13 @@ we were well fed and drunk all the time!</p>
                                      <div class="panel panel-default">
                                      <div class="panel-heading">
                                        <h3 class="panel-title">
-                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFour1">
+                                         <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseFive1">
                                            Driver
                                            <i class="fa fa-angle-right pull-right"></i>
                                          </a>
                                        </h3>
                                      </div>
-                                     <div id="collapseFour1" class="panel-collapse collapse">
+                                     <div id="collapseFive1" class="panel-collapse collapse">
                                        <div class="panel-body">
                                          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor.
                                        </div>
@@ -609,6 +608,17 @@ $(function() {
 		e.preventDefault();
 		$('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
 	});
+});
+</script>
+<!-- accordion -->
+<script>
+// accordian
+$('.accordion-toggle').on('click', function(){
+  $(this).closest('.panel-group').children().each(function(){
+  $(this).find('>.panel-heading').removeClass('active');
+   });
+
+  $(this).closest('.panel-heading').toggleClass('active');
 });
 </script>
 
