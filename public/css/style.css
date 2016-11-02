@@ -966,6 +966,7 @@ p {
 	position: absolute;
 	left: 0;
 	right: 0;
+  color: #3bff00;
 	text-align: center;
 }
 .scroll-btn > * {
@@ -974,7 +975,7 @@ p {
 	font-size: 13px;
 	font-weight: normal;
 	color: #7f8c8d;
-	color: #3bff00;
+	color: #ffffff;
 	font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	letter-spacing: 2px;
 }
