@@ -851,12 +851,15 @@ border: 2px solid #fff;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
   background:url(../img/slide-menu/innovate.png);
+  width: 100%;
 }
 #thumbnail-preview-indicators .slides .slide-2 {
   background:url(../img/slide-menu/best2.png);;
+  width: 100%;
 }
 #thumbnail-preview-indicators .slides .slide-3 {
   background:url(../img/slide-menu/create.png);
+  width: 100%;
 }
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
   top: 20%;
