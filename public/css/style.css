@@ -967,6 +967,15 @@ border: 2px solid #fff;
 #section10 { background: url(https://unsplash.it/1000/1000?image=723) center center / cover no-repeat;
 
 }
+.demo {
+
+color: #00ff04;
+margin-top: 50px;
+}
+.demo hover{
+opacity: .5;
+
+}
 .demo a {
 	position: absolute;
 	bottom: 5px;
