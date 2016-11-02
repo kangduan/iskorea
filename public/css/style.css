@@ -844,19 +844,16 @@ border: 2px solid #fff;
     #thumbnail-preview-indicators .slides .slide-1,
     #thumbnail-preview-indicators .slides .slide-2,
     #thumbnail-preview-indicators .slides .slide-3 {
-      height: 600px;
+      height: 480px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
-  background:url(../img/slide-menu/innovate.png);
-  background-size: cover;
+  background:url(../img/innovate.png);
 }
 #thumbnail-preview-indicators .slides .slide-2 {
-  background:url(../img/slide-menu/best2.png);
-  background-size: cover;
+ background:url(../img/best2.png);;
 }
 #thumbnail-preview-indicators .slides .slide-3 {
-  background:url(../img/slide-menu/create.png);
-  background-size: cover;
+  background:url(../img/create.png);
 }
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
   top: 20%;
@@ -865,18 +862,17 @@ border: 2px solid #fff;
 #thumbnail-preview-indicators .carousel-indicators li,
 #thumbnail-preview-indicators .carousel-indicators li.active {
   position: relative;
-  width: 150px;
+  width: 100px;
   height: 8px;
 }
 #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
   position: absolute;
   top: 0;
   width: 100px;
-  height: 50px;
   display: none;
   opacity: 0;
   left: 50%;
-  margin-top: -100px;
+  margin-top: -80px;
   margin-left: -50px;
 }
 #thumbnail-preview-indicators .carousel-indicators li:hover > .thumbnail,
@@ -887,16 +883,15 @@ border: 2px solid #fff;
 #thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
   opacity: 1;
 }
-@media screen and (max-width : 512px) {
+@media screen and (max-width : 480px) {
     #thumbnail-preview-indicators .carousel-indicators li,
     #thumbnail-preview-indicators .carousel-indicators li.active {
-
+      background:url(../img/section-bg2.jpg) top center no-repeat;
       width: 50px;
       height: 8px;
       position: relative;
     }
     #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
-
        width: 50px;
        left: 50%;
        margin-top: -50px;
