@@ -1010,11 +1010,18 @@ p {
 	width: 8px;
 	height: 8px;
 	margin: -4px 0 0 -4px;
-/*background: white;*/
+  background: white;
 	border-radius: 80%;
 	-webkit-animation: ani-mouse 2.5s linear infinite;
 	-moz-animation: ani-mouse 2.5s linear infinite;
 	animation: ani-mouse 2.5s linear infinite;
+}
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
 }
 /*recruit*/
 .form-inline .form-group { margin-right:10px; }
