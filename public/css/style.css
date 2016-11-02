@@ -835,6 +835,7 @@ border: 2px solid #fff;
 #thumbnail-preview-indicators .slides .slide-1,
 #thumbnail-preview-indicators .slides .slide-2,
 #thumbnail-preview-indicators .slides .slide-3 {
+  width: 100%;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -845,7 +846,7 @@ border: 2px solid #fff;
     #thumbnail-preview-indicators .slides .slide-2,
     #thumbnail-preview-indicators .slides .slide-3 {
       width: 100%;
-      height: 100%;
+      height: 500px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
   background:url(../img/slide-menu/innovate.png);
