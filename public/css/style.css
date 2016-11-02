@@ -829,7 +829,7 @@ border: 2px solid #fff;
 */
 
 #thumbnail-preview-indicators {
-  max-width: 1200px;
+  max-width: 1600px;
   position: relative;
   overflow: hidden;
 }
@@ -884,7 +884,7 @@ border: 2px solid #fff;
 #thumbnail-preview-indicators .carousel-indicators li.active > .thumbnail:hover{
   opacity: 1;
 }
-@media screen and (max-width : 480px) {
+@media screen and (max-width : 640px) {
     #thumbnail-preview-indicators .carousel-indicators li,
     #thumbnail-preview-indicators .carousel-indicators li.active {
       background:url(../img/section-bg2.jpg) top center no-repeat;
