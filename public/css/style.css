@@ -890,15 +890,18 @@ border: 2px solid #fff;
   opacity: 1;
 }
 @media screen and (max-width : 640px) {
+background:url(../img/pw_maze_black_2X.png) left top repeat;
+
+}
+
+@media screen and (max-width : 640px) {
     #thumbnail-preview-indicators .carousel-indicators li,
     #thumbnail-preview-indicators .carousel-indicators li.active {
-      background:url(../img/section-bg2.jpg) top center no-repeat;
       width: 50px;
       height: 8px;
       position: relative;
     }
     #thumbnail-preview-indicators .carousel-indicators li > .thumbnail {
-       background:url(../img/section-bg2.jpg) top center no-repeat;
        width: 50px;
        left: 50%;
        margin-top: -50px;
