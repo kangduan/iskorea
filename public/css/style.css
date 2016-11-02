@@ -846,7 +846,7 @@ border: 2px solid #fff;
     #thumbnail-preview-indicators .slides .slide-1,
     #thumbnail-preview-indicators .slides .slide-2,
     #thumbnail-preview-indicators .slides .slide-3 {
-      height: 500px;
+      height: 600px;
     }
 #thumbnail-preview-indicators .slides .slide-1 {
   background:url(../img/slide-menu/innovate.png);
