@@ -993,14 +993,13 @@ p {
 .scroll-btn .mouse {
 	position: relative;
 	display: block;
-	width: 35px;
-	height: 55px;
+	width: 30px;
+	height: 50px;
 	margin: 0 auto 20px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-  color: #1dff00;
-	border: 3px solid white;
+	border: 3px solid #1dff00;
 	border-radius: 23px;
 }
 .scroll-btn .mouse > * {
@@ -1011,7 +1010,8 @@ p {
 	width: 8px;
 	height: 8px;
 	margin: -4px 0 0 -4px;
-  background: white;
+  color: #1dff00;
+  background: #1dff00;
 	border-radius: 80%;
 	-webkit-animation: ani-mouse 2.5s linear infinite;
 	-moz-animation: ani-mouse 2.5s linear infinite;
@@ -1020,7 +1020,7 @@ p {
 .main-text
 {
     position: absolute;
-    top: 250px;
+    top: 430px;
     width: 96.66666666666666%;
     color: #FFF;
 }
