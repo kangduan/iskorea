@@ -13,9 +13,4 @@
  *= require_tree .
  *= require_self
  */
- = require bootstrap
- = require style
- = require font-awesome
- = require responsive
- = require animate
- = require main
+ *= require_tree ../../assets/stylesheets

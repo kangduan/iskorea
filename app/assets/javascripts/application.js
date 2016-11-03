@@ -14,11 +14,4 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-= require jquery.1.8.3.min
-= require bootstrap.js
-= require jquery-scrolltofixed
-= require jquery.easing.1.3
-= require jquery.isotope
-= require jquery.wow
-= require jquery.classie
+*= require_tree ../../assets/javascripts
