@@ -846,9 +846,11 @@ border: 2px solid #fff;
     #thumbnail-preview-indicators .slides,
     #thumbnail-preview-indicators .slides .slide-1,
     #thumbnail-preview-indicators .slides .slide-2,
-    #thumbnail-preview-indicators .slides .slide-3 {
+    #thumbnail-preview-indicators .slides .slide-3,
+    #thumbnail-preview-indicators .slides .slide-4
+     {
       height: 600px;
-    }
+     }
 #thumbnail-preview-indicators .slides .slide-1 {
   background:url(../img/slide-menu/best2.png);
 
@@ -859,6 +861,10 @@ border: 2px solid #fff;
 }
 #thumbnail-preview-indicators .slides .slide-3 {
   background:url(../img/slide-menu/create.png);
+
+}
+#thumbnail-preview-indicators .slides .slide-4 {
+  background:url(../img/slide-menu/best4.png);
 
 }
 #thumbnail-preview-indicators .carousel-inner .item .carousel-caption {
