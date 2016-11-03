@@ -14,3 +14,9 @@
  *= require_self
  */
  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+ <link href="assets/bootstrap.css" rel="stylesheet" type="text/css">
+ <link href="assets/style.css" rel="stylesheet" type="text/css">
+ <link href="assets/font-awesome.css" rel="stylesheet" type="text/css">
+ <link href="assets/responsive.css" rel="stylesheet" type="text/css">
+ <link href="assets/animate.css" rel="stylesheet" type="text/css">
+ <link href="assets/main.css" rel="stylesheet" type="text/css">
