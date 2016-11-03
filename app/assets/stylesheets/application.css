@@ -13,4 +13,4 @@
  *= require_tree .
  *= require_self
  */
- *= require_tree ../../assets/stylesheets
+ = require_tree ../../assets/stylesheets
