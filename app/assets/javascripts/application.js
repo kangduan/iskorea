@@ -14,11 +14,11 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-<script type="text/javascript" src="assets/jquery.1.8.3.min.js"></script>
-<script type="text/javascript" src="assets/bootstrap.js"></script>
-<script type="text/javascript" src="assets/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="assets/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="assets/jquery.isotope.js"></script>
-<script type="text/javascript" src="assets/wow.js"></script>
-<script type="text/javascript" src="assets/classie.js"></script>
+
+= require jquery.1.8.3.min
+= require bootstrap.js
+= require jquery-scrolltofixed
+= require jquery.easing.1.3
+= require jquery.isotope
+= require jquery.wow
+= require jquery.classie
