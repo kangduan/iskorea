@@ -15,11 +15,11 @@
 //= require turbolinks
 //= require_tree .
 
-<script type="text/javascript" src="/assets/javascripts/jquery.1.8.3.min.js"></script>
-<script type="text/javascript" src="/assets/javascripts/bootstrap.js"></script>
-<script type="text/javascript" src="/assets/javascripts/jquery-scrolltofixed.js"></script>
-<script type="text/javascript" src="/assets/javascripts/jquery.easing.1.3.js"></script>
-<script type="text/javascript" src="/assets/javascripts/jquery.isotope.js"></script>
-<script type="text/javascript" src="/assets/javascripts/wow.js"></script>
-<script type="text/javascript" src="/assets/javascripts/classie.js"></script>
+<script type="text/javascript" src="jquery.1.8.3.min.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="jquery.isotope.js"></script>
+<script type="text/javascript" src="wow.js"></script>
+<script type="text/javascript" src="classie.js"></script>
 <script src="contactform/contactform.js"></script>
