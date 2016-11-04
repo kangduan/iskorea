@@ -13,5 +13,11 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree ../../assets/javascripts
-*= require_tree ../../assets/javascripts
+//= require_tree .
+  @import "bootstrap.js";
+  @import "jquery.1.8.3.min.js";
+  @import "jquery-scrolltofixed.js";
+  @import "jquery.easing.1.3.js";
+  @import "jquery.isotope.js";
+  @import "wow.js";
+  @import "classie.js";
