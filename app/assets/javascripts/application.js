@@ -13,5 +13,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
-= require_tree ../../assets/javascripts
+//= require_tree ../../assets/javascripts
+*= require_tree ../../assets/javascripts
